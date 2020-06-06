@@ -1,0 +1,5 @@
+
+cat models.lua objects.lua | sort | sed "s,.*\\[\(.*\)\\].*\"\(.*\)\".*,\2 = \1,"|grep "="> wip.txt
+
+cat wip.txt | grep "=" | sed "s, ,,g" | awk '{print substr($0,0,index($0,"=")-1) "," toupper(substr($0,0,index($0,"=")-1)) "," substr($0,index($0,"=")+1)  }' > asset_ids.csv
+
