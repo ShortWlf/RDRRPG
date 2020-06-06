@@ -1,0 +1,7 @@
+RegisterServerEvent('cryptos_loot')
+AddEventHandler("cryptos_loot", function(price)
+    TriggerEvent('redemrp:getPlayerFromId', source, function(user)
+		local _price = tonumber(price)
+		user.addMoney(_price)
+    end)
+end)

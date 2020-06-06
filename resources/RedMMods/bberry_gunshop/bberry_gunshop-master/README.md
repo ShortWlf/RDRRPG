@@ -1,0 +1,4 @@
+Thank's amakuu for helping with level system!
+That's gunshop required RedEM framework. That's work's fine without problem. If you don't have enough money you can't get weapon. You can add a new weapon in client.lua. But that works without mysql db, because i can't understand why i can not add more then 2 types of one group weapon. For example if you have 1 shotgun, and 1 varmint weapon, if you will buy for example bolt action rifle the you will lost your shotgun and get bolt action rifle for that place in weapon selector. If somebody help me with that problem of weapon selector, i will fix it work with database. 
+Also you can find blips on minimap. Shops are in Saint Deny, Valentine, and other places.
+If some body can help me with weapon selector problem ^^ You can add me on discord: Kaksobar#4366 or on the redem discord.
