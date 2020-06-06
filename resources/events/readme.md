@@ -1,6 +1,6 @@
 # events - hunting / skinnning loot system
 
-#Native DB
+# Native DB
 https://www.mod-rdr.com/nativedb/index/builtin/
 
 # Required resource
